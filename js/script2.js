@@ -295,49 +295,51 @@ $(function () {
   });
 
   /* 카드 텝메뉴  */
+
+
   $(function () {
     let tabBtn = $(".tab_btn > ul > li"); //버튼 설정
-    let tabCont = $(".tab_cont > .project_main "); //콘텐츠 설정
+    let tabCont = $(".tab_cont > .portfolio_main "); //콘텐츠 설정
     tabCont.hide().eq(0).show(); //첫번째 콘텐츠만 보이게 설정
+
 
     tabBtn.click(function () {
 
       const index = $(this).index(); 
-      // alert(index);
 
       $(this).addClass("active").siblings().removeClass("active"); 
       tabCont.eq(index).show().siblings().hide(); 
+
+
     });
 
+
+    
     /* 카드 텝 클릭시 이미지 변환 */
-    $('.tab_btn > ul > li').append('<div class="hover"></div>'); //append() 메소드는 선택된 요소의 마지막에 새로운 HTML 요소나 콘텐츠를 추가
+    tabBtn.on(function () { 
+      var tg = $(this);
+      var i = tg.index();
 
-    $('.tab_btn > ul > li').hover(
+      var img = tg.find('img');
+      var src_off = img.attr('src');
+      var src_on = src_off.replace('_off', '_on');
 
-      //마우스 호버, 페이드 인 호버 클래스
-      function(){
-        $(this).children('div').stop().fadeIn(1000); //밝게
-      },
+      $('<img >').attr('src', src_on);
+      
 
-      //마우스 호버, 페이드 아웃 호버 클래스
-      function(){
-        $(this).children('div').stop().fadeOut(1000); //그대로
-      }).click (function(){
-        //클릭하면 선택한 클래스가 실행
-        $('.tab_btn > ul > li').removeClass('selected')
-        $(this).addClass('selected');
+      tg.toggle(function () {
+        img.attr('src', src_off);
+        tg.eq(i).img.attr('src', src_on);
+      }, function () {
+        img.attr('src', src_off);
+        tg.eq(i).img.attr('src', src_on);
       });
+
+
+    });
   });
 
 
-  /* qr코드 팝업 */
-  $(function(){
-    $(".qr_popup-btn").click(function(){
-        $(".qr_popup-view").show();
-    });
-    $(".qr_popup-close").click(function(){
-        $(".qr_popup-view").hide();
-    });
-});
+
 
 });
