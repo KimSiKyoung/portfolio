@@ -2,10 +2,10 @@ $(function () {
 
   /* 메인 typed */
   $('h1').typed({
-    strings: ["안녕하세요." + "<br>" + "{ 경험을 새기는 디자이너 }" + "<br>" + " <span>김시경</span>입니다."],
-    typeSpeed: 150,
+    strings: ["안녕하세요." + "<br>" + "{ 경험을 새기는 UI·UX디자이너 }" + "<br>" + " <span>김시경</span>입니다."],
+    typeSpeed: 250,
     /* 타이핑 속도 */
-    backDelay: 200,
+    backDelay: 300,
     /* 지워지는 속도 */
     loop: true /* flase는 한번 , true는 계속 */
   });
@@ -339,5 +339,23 @@ $(function () {
         $(".qr_popup-view").hide();
     });
 });
+
+/* 마우스 호버시 */
+$('.mockup .site_sample').hover(function () {
+  //innerHeight -> a요소의 높이 + 패딩
+  var ah = $(this).find('a').innerHeight();
+  var img = $(this).find('img');
+  var imgh = $(this).find('img').innerHeight();
+
+  img.stop().animate({
+      top: ah - imgh
+  }, 5000)
+
+}, function () {
+  var img = $(this).find('img');
+  img.stop().animate({
+      top: 0
+  }, 5000)
+})
 
 });
