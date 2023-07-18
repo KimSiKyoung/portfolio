@@ -9,8 +9,11 @@
 
   <!-- swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
 
   <!-- swiper -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -35,9 +38,9 @@
           { } <br>
           <span>김시경</span>입니다.
         </h1>
-        <h2><em>경험을 새기는</em> 디자이너</h2>
+        <h2><em>경험을 새기는</em> UI·UX디자이너</h2>
         <p>디자인이란 경험의 발자취라고 생각합니다. <br>
-          끊임없는 배움을 통해 작은 경험도 정성스럽게 새길 수 있는 디자이너가 되겠습니다.</p>
+          끊임없는 배움을 통해 작은 경험도 정성스럽게 새길 수 있는 UI·UX디자이너가 되겠습니다.</p>
         <!-- //main -->
         <a href="#first_wrap" class="scroll-down">
           <div class="scroll">
@@ -334,16 +337,13 @@
                   <!-- Slides -->
                   <div class="swiper-slide"><img src="./images/license1.png" alt="포토샵"></div>
                   <div class="swiper-slide"><img src="./images/license2.png" alt="웹디자인기능사"></div>
-                  <div class="swiper-slide"><img src="./images/license3.png" alt="MAT"></div>
+                  <div class="swiper-slide"><img src="./images/license3.png" alt="SMAT"></div>
                   <div class="swiper-slide"><img src="./images/license4.png" alt="컴퓨터활용능력 필기2급"></div>
                   <div class="swiper-slide"><img src="./images/license5.png" alt="운전면허"></div>
                   <div class="swiper-slide"><img src="./images/license6.png" alt="지게차운전기능사"></div>
                   <div class="swiper-slide"><img src="./images/license7.png" alt="굴착기운전기능사"></div>
                   ...
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -351,7 +351,7 @@
               </div>
             </div>
             <a href="#none" class="folder-close">
-              <img src="./images/backbtn.png" alt="">
+              <img src="./images/backbtn.png" alt="backbtn">
             </a>
           </div>
         </div>
@@ -385,35 +385,28 @@
                   <a href="#none">
                     <!-- <img src="./images/jquery_off.png" alt="jqery_Character" id="img2"> -->
                   </a>
-                  <span>jquery</span>
+                  <span>jQuery</span>
                 </li>
 
                 <li>
                   <a href="#none">
                     <!-- <img src="./images/responsive_off.png" alt="responsive_Character"> -->
                   </a>
-                  <span>responsive</span>
-                </li>
-
-                <li>
-                  <a href="#none">
-                    <!-- <img src="./images/php_off.png" alt="php_Character"> -->
-                  </a>
-                  <span>php</span>
+                  <span>Responsive</span>
                 </li>
 
                 <li>
                   <a href="#none">
                     <!-- <img src="./images/react_off.png" alt="react_Character"> -->
                   </a>
-                  <span>react</span>
+                  <span>React</span>
                 </li>
 
                 <li>
                   <a href="#none">
                     <!-- <img src="./images/sns_off.png" alt="react_Character"> -->
                   </a>
-                  <span>SNS</span>
+                  <span>ETC</span>
                 </li>
 
               </ul>
@@ -422,9 +415,6 @@
               <!-- html -->
               <div class="project_main">
                 <!-- Swiper -->
-                <div class="mockup">
-                  <img src="./images/pc-mock.png" alt="pc-mock">
-                </div>
                 <div class="project_title">
                   <p>PROJECT</p>
                 </div>
@@ -432,22 +422,25 @@
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                      <div class="mockup">
+                        <img src="./images/pc-mock.png" alt="pc-mock">
+                      </div>
                       <div class="site_sample">
-                        <img class="site_animate" src="./images/battleground.png" alt="battleground">
+                        <a href="https://kimsikyoung.github.io/battleground/" target="_blank"><img class="site_animate" src="./images/battleground.png" alt="battleground"></a>
                       </div>
                       <div class="p_skill">
                         <p>HTML + CSS</p>
                       </div>
-                      <div class="p_design">
-                        <p>WEB DESIGN</p>
-                      </div>
                       <div class="p_title">
-                        <h4>BATTLEGROUND</h4>
+                        <p>BattleGround</p>
                       </div>
                       <div class="p_text">
-                        <h4>제작 기간 : 2023.06.18 ~ 20.23.06.23 (5일)</h4>
-                        <p>처음으로 클론코딩을 한 페이지입니다
-                          주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리</p>
+                        <h4>제작 기간 : 2023.05.16 ~ 20.23.05.21 (5일)</h4>
+                        <p>배틀그라운드(BattleGround)의 공식 홈페이지를 <br>HTML과 CSS만을 사용하여 클론코딩하였습니다. <br>HTML을 사용하여 각 섹션을 구조화하고,
+                          <br>CSS를 활용하여
+                          디자인과 레이아웃을 재현하였습니다.
+                          <br>
+                        </p>
                       </div>
 
                       <div class="p_site">
@@ -467,7 +460,7 @@
                         <img src="./images/chrom.png" alt="chrom">
                         <img src="./images/firefox.png" alt="firefox">
                         <img src="./images/edge.png" alt="edge">
-                        <img src="./images/explorer.png" alt="explorer">
+                        <img src="./images/ico_wa.png" alt="ico_wa">
                       </div>
 
                       <div class="p_git">
@@ -479,7 +472,17 @@
                         </div>
                       </div>
                     </div>
-                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide">
+                      <div class="mockup">
+                        <img src="./images/pc-mock.png" alt="pc-mock">
+                      </div>
+                      <div class="loding_text">
+                        <p>준비중입니다.</p>
+                      </div>
+                      <div class="loader">
+                        <span></span>
+                      </div>
+                    </div>
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
@@ -487,10 +490,6 @@
               </div>
               <!-- jquery -->
               <div class="project_main">
-                <!-- Swiper -->
-                <div class="mockup">
-                  <img src="./images/pc-mock.png" alt="pc-mock">
-                </div>
                 <div class="project_title">
                   <p>PROJECT</p>
                 </div>
@@ -498,40 +497,90 @@
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                      <!-- Swiper -->
+                      <div class="mockup">
+                        <img src="./images/pc-mock.png" alt="pc-mock">
+                      </div>
                       <div class="site_sample">
-                        <img class="site_animate2" src="./images/PROSECUTION_SERVICE.png" alt="대검찰청">
+                        <a href="https://kimsikyoung.github.io/porsche/" target="_blank"><img class="site_animate3" src="./images/porsche.png" alt="porsche"></a>
                       </div>
                       <div class="p_skill">
                         <p>HTML + CSS + JQUERY</p>
                       </div>
-                      <div class="p_design">
-                        <p>WEB DESIGN</p>
-                      </div>
                       <div class="p_title">
-                        <h4>대검찰청 메인 페이지 리뉴얼</h4>
+                        <p>포르쉐코리아 홈페이지</p>
                       </div>
                       <div class="p_text">
-                        <h4>제작 기간 : 2023.06.18 ~ 20.23.06.23 (5일)</h4>
-                        <p>처음으로 클론코딩을 한 페이지입니다
-                          주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리</p>
+                        <h4>제작 기간 : 2023.05.24 ~ 2023.05.31 (7일)</h4>
+                        <p>HTML,CSS, 그리고 jQuery를 사용하여 웹 페이지의 구조, 스타일링, <br> 그리고 동적인 요소를 구현했습니다. 포르쉐 코리아 사이트의 <br>  디자인과 기능을 분석하고 적절한 HTML 요소와 CSS 스타일을 <br>  적용하여 사이트의 외관을 구현했습니다. </p>
                       </div>
 
                       <div class="p_site">
                         <h4>페이지이동</h4>
                         <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/PROSECUTION_SERVICE/" target="_blank">Main</a>
+                          <a href="https://kimsikyoung.github.io/porsche/" target="_blank">Main</a>
+                        </div>
+                      </div>
+
+                      <div class="p_personal">
+                        <h4>개인작업</h4>
+                        <p>PERSONAL WORK</p>
+                        <span>100% 기획,코딩</span>
+                      </div>
+
+                      <div class="p_cross">
+                        <img src="./images/chrom.png" alt="chrom">
+                        <img src="./images/firefox.png" alt="firefox">
+                        <img src="./images/edge.png" alt="edge">
+                        <img src="./images/ico_wa.png" alt="ico_wa">
+                      </div>
+
+                      <div class="p_git">
+                        <div class="git_img">
+                          <a href="https://github.com/KimSiKyoung/porsche.git" target="_blank">
+                            <img src="./images/github.png" alt="github">
+                          </a>
+                          <span>코드 보기</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 대검찰청 -->
+                    <div class="swiper-slide">
+                      <!-- Swiper -->
+                      <div class="mockup">
+                        <img src="./images/pc-mock.png" alt="pc-mock">
+                      </div>
+                      <div class="site_sample">
+                        <a href="https://kimsikyoung.github.io/ProsecutionService/" target="_blank"><img class="site_animate2" src="./images/PROSECUTION_SERVICE.png" alt="대검찰청"></a>
+                      </div>
+                      <div class="p_skill">
+                        <p>HTML + CSS + JQUERY</p>
+                      </div>
+                      <div class="p_title">
+                        <p>대검찰청 메인 페이지 리뉴얼</p>
+                      </div>
+                      <div class="p_text">
+                        <h4>제작 기간 : 2023.05.01 ~ 20.23.05.13 (12일)</h4>
+                        <p> HTML, CSS, jQuery를 활용하여 관공서인 대검찰청의 홈페이지를 <br>리뉴얼하는 프로젝트를 진행했습니다.조금 밋밋했던 대검찰청의 <br>홈페이지를 CSS와
+                          jQuery를 조합하여 슬라이드 효과, 동영상 첨부 <br> 등을 적용하여서 생동감과 시각적인 요소를 넣었습니다.</p>
+                      </div>
+
+                      <div class="p_site">
+                        <h4>페이지이동</h4>
+                        <div class="site_box">
+                          <a href="https://kimsikyoung.github.io/ProsecutionService/" target="_blank">Main</a>
                         </div>
                         <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/PROSECUTION_SERVICE/sub1.html" target="_blank">Sub1</a>
+                          <a href="https://kimsikyoung.github.io/ProsecutionService/sub1.html" target="_blank">Sub1</a>
                         </div>
                         <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/PROSECUTION_SERVICE/sub2.html" target="_blank">Sub2</a>
+                          <a href="https://kimsikyoung.github.io/ProsecutionService/sub2.html" target="_blank">Sub2</a>
                         </div>
                         <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/PROSECUTION_SERVICE/sub3.html" target="_blank">Sub3</a>
+                          <a href="https://kimsikyoung.github.io/ProsecutionService/sub3.html" target="_blank">Sub3</a>
                         </div>
                         <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/PROSECUTION_SERVICE/login.html"
+                          <a href="https://kimsikyoung.github.io/ProsecutionService/login.html"
                             target="_blank">Login</a>
                         </div>
                       </div>
@@ -546,19 +595,18 @@
                         <img src="./images/chrom.png" alt="chrom">
                         <img src="./images/firefox.png" alt="firefox">
                         <img src="./images/edge.png" alt="edge">
-                        <img src="./images/explorer.png" alt="explorer">
+                        <img src="./images/ico_wa.png" alt="ico_wa">
                       </div>
 
                       <div class="p_git">
                         <div class="git_img">
-                          <a href="https://github.com/KimSiKyoung/PROSECUTION_SERVICE.git" target="_blank">
+                          <a href="https://github.com/KimSiKyoung/ProsecutionService.git" target="_blank">
                             <img src="./images/github.png" alt="github">
                           </a>
                           <span>코드 보기</span>
                         </div>
                       </div>
                     </div>
-                    <div class="swiper-slide"></div>
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
@@ -566,10 +614,6 @@
               </div>
               <!-- responsive -->
               <div class="project_main">
-                <!-- Swiper -->
-                <div class="mockup">
-                  <img src="./images/pc-mock.png" alt="pc-mock">
-                </div>
                 <div class="project_title">
                   <p>PROJECT</p>
                 </div>
@@ -577,28 +621,31 @@
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                      <div class="mockup">
+                        <img src="./images/pc-mock.png" alt="pc-mock">
+                      </div>
                       <div class="site_sample">
-                        <img class="site_animate3" src="./images/porsche.png" alt="porsche">
+                        <a href="https://kimsikyoung.github.io/Yogerpresso/" target="_blank"><img class="site_animate5" src="./images/yogerpresso.png" alt="yogerpresso"></a>
                       </div>
                       <div class="p_skill">
                         <p>HTML + CSS + JQUERY</p>
                       </div>
-                      <div class="p_design">
-                        <p>WEB DESIGN</p>
-                      </div>
                       <div class="p_title">
-                        <h4>포르쉐코리아 홈페이지 클론코딩</h4>
+                        <p>Yogerpresso</p>
                       </div>
                       <div class="p_text">
-                        <h4>제작 기간 : 2023.06.24 ~ 2023.07.01 (7일)</h4>
-                        <p>처음으로 클론코딩을 한 페이지입니다
-                          주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리</p>
+                        <h4>제작 기간 : 2023.06.23 ~ 20.23.07.02 (9일)</h4>
+                        <p>
+                          반응형으로 만든 요거프레소 사이트입니다.
+                          다양한 디바이스에서 <br> 최적화된 화면을 제공하며 화면 크기에 맞게 요소들이 자동으로<br> 배치되어 간편한 내비게이션의 이용과 직관적인 디자인으로 <br> 사용자들이 원하는 정보를 빠르게 찾을 수 있게 하였습니다.
+                          
+                        </p>
                       </div>
 
                       <div class="p_site">
                         <h4>페이지이동</h4>
                         <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/battleground/" target="_blank">Main</a>
+                          <a href="https://kimsikyoung.github.io/Yogerpresso/" target="_blank">Main</a>
                         </div>
                       </div>
 
@@ -612,93 +659,43 @@
                         <img src="./images/chrom.png" alt="chrom">
                         <img src="./images/firefox.png" alt="firefox">
                         <img src="./images/edge.png" alt="edge">
-                        <img src="./images/explorer.png" alt="explorer">
+                        <img src="./images/ico_wa.png" alt="ico_wa">
                       </div>
 
                       <div class="p_git">
                         <div class="git_img">
-                          <a href="https://github.com/KimSiKyoung/PROSECUTION_SERVICE.git" target="_blank">
+                          <a href="https://github.com/KimSiKyoung/battleground" target="_blank">
                             <img src="./images/github.png" alt="github">
                           </a>
                           <span>코드 보기</span>
                         </div>
                       </div>
-
+                      <!--아이패드 목업  -->
                       <div class="mockup_ipad">
                         <img src="./images/device_ipad.png" alt="ipad">
                       </div>
+                      <div class="site_sample1">
+                        <a href="javascript:void(window.open('https://kimsikyoung.github.io/Yogerpresso/', '_blank', 'width=980 , height=1000', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))" tabindex="1"><img class="site_animate7" src="./images/980YOGERPRESSO.png" alt="yogerpresso"></a>
+                      </div>
+                      <!-- 아이폰 목업 -->
                       <div class="mockup_iphone">
                         <img src="./images/iphone.png" alt="iphone">
                       </div>
-
+                      <div class="site_sample2">
+                        <a href="javascript:void(window.open('https://kimsikyoung.github.io/Yogerpresso/', '_blank', 'width=480 , height=846', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))" tabindex="1"><img class="site_animate8" src="./images/480YOGERPRESSO.png" alt="yogerpresso"></a>
+                      </div>
                     </div>
-                    <div class="swiper-slide"></div>
-                  </div>
-                  <div class="swiper-button-next"></div>
-                  <div class="swiper-button-prev"></div>
-                </div>
-              </div>
-              <!-- php -->
-              <div class="project_main">
-                <!-- Swiper -->
-                <div class="mockup">
-                  <img src="./images/pc-mock.png" alt="pc-mock">
-                </div>
-                <div class="project_title">
-                  <p>PROJECT</p>
-                </div>
-                <div class="project_text"></div> <!-- 텍스트 박스 영역 -->
-                <div class="swiper mySwiper">
-                  <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <div class="site_sample">
-                        <!-- <img class="site_animate3" src="./images/porsche.png" alt="porsche"> -->
+                      <div class="mockup">
+                        <img src="./images/pc-mock.png" alt="pc-mock">
                       </div>
-                      <div class="p_skill">
-                        <p>php</p>
+                      <div class="loding_text">
+                        <p>준비중입니다.</p>
                       </div>
-                      <div class="p_design">
-                        <p>WEB DESIGN</p>
-                      </div>
-                      <div class="p_title">
-                        <h4>포르쉐코리아 홈페이지 클론코딩</h4>
-                      </div>
-                      <div class="p_text">
-                        <h4>제작 기간 : 2023.06.24 ~ 2023.07.01 (7일)</h4>
-                        <p>처음으로 클론코딩을 한 페이지입니다
-                          주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리</p>
-                      </div>
-
-                      <div class="p_site">
-                        <h4>페이지이동</h4>
-                        <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/battleground/" target="_blank">Main</a>
-                        </div>
-                      </div>
-
-                      <div class="p_personal">
-                        <h4>개인작업</h4>
-                        <p>PERSONAL WORK</p>
-                        <span>100% 기획,코딩</span>
-                      </div>
-
-                      <div class="p_cross">
-                        <img src="./images/chrom.png" alt="chrom">
-                        <img src="./images/firefox.png" alt="firefox">
-                        <img src="./images/edge.png" alt="edge">
-                        <img src="./images/explorer.png" alt="explorer">
-                      </div>
-
-                      <div class="p_git">
-                        <div class="git_img">
-                          <a href="https://github.com/KimSiKyoung/PROSECUTION_SERVICE.git" target="_blank">
-                            <img src="./images/github.png" alt="github">
-                          </a>
-                          <span>코드 보기</span>
-                        </div>
+                      <div class="loader">
+                        <span></span>
                       </div>
                     </div>
-                    <div class="swiper-slide"></div>
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
@@ -706,10 +703,6 @@
               </div>
               <!-- react -->
               <div class="project_main">
-                <!-- Swiper -->
-                <div class="mockup">
-                  <img src="./images/pc-mock.png" alt="pc-mock">
-                </div>
                 <div class="project_title">
                   <p>PROJECT</p>
                 </div>
@@ -717,54 +710,70 @@
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                      <!-- Swiper -->
+                      <div class="mockup">
+                        <img src="./images/iphone.png" alt="iphone">
+                      </div>
                       <div class="site_sample">
-                        <!-- <img class="site_animate3" src="./images/porsche.png" alt="porsche"> -->
+                        <a href="https://kimsikyoung.github.io/team_project/" target="_blank"><img class="site_animate4" src="./images/HaiRound.jpg" alt="HaiRound"></a>
                       </div>
                       <div class="p_skill">
-                        <p>react</p>
-                      </div>
-                      <div class="p_design">
-                        <p>WEB DESIGN</p>
+                        <p>REACT</p>
                       </div>
                       <div class="p_title">
-                        <h4>react</h4>
+                        <p>HaiRound</p>
                       </div>
                       <div class="p_text">
-                        <h4>제작 기간 : 2023.06.24 ~ 2023.07.01 (7일)</h4>
-                        <p>처음으로 클론코딩을 한 페이지입니다
-                          주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리</p>
+                        <h4>제작 기간 : 2023.06.02 ~ 2023.06.19 (17일)</h4>
+                        <p>처음 팀프로젝트로 제작한 헤어라운드라는 어플입니다. <br>
+                          헤어라운드는 " Hair " + " Round "라는 합성어로 <br> "당신의 헤어에 가장 가까이 하겠다"라는 의미를 갖고 있습니다. <br> 리액트와 부트스트랩을 사용하여 제작하였습니다.  </p>
                       </div>
 
                       <div class="p_site">
                         <h4>페이지이동</h4>
                         <div class="site_box">
-                          <a href="https://kimsikyoung.github.io/battleground/" target="_blank">Main</a>
+                          <a href="https://kimsikyoung.github.io/team_project/" target="_blank">Main</a>
                         </div>
                       </div>
 
                       <div class="p_personal">
-                        <h4>개인작업</h4>
-                        <p>PERSONAL WORK</p>
-                        <span>100% 기획,코딩</span>
+                        <h4>팀프로젝트</h4>
+                        <p>TEAM PROJECT</p>
+                        <span>100%기획,디자인 50%코딩</span>
                       </div>
 
-                      <div class="p_cross">
-                        <img src="./images/chrom.png" alt="chrom">
-                        <img src="./images/firefox.png" alt="firefox">
-                        <img src="./images/edge.png" alt="edge">
-                        <img src="./images/explorer.png" alt="explorer">
+                      <div class="p_show">
+                        <a href="./ppt/HaiRound.pptx" alt="HaiRound" download>
+                          <img src="./images/ppt.png" alt="ppt">
+                        </a>
+                        <a href="./ppt/HaiRound.pdf" alt="HaiRound" target="_blank">
+                          <img src="./images/pdf.png" alt="pdf">
+                        </a>
+                        <a href="https://www.figma.com/proto/atfLtOyi0RByJpJSUokVJq/HaiRound?type=design&node-id=5-4&t=foNvj6u7pVO2ezkv-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A4" target="_blank">
+                        <img src="./images/p_figma.png" alt="HaiRound_Figma" >
+                        </a>
                       </div>
 
                       <div class="p_git">
                         <div class="git_img">
-                          <a href="https://github.com/KimSiKyoung/PROSECUTION_SERVICE.git" target="_blank">
+                          <a href="https://github.com/KimSiKyoung/team_project.git" target="_blank">
                             <img src="./images/github.png" alt="github">
                           </a>
                           <span>코드 보기</span>
                         </div>
                       </div>
                     </div>
-                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide">
+                      <div class="mockup">
+                        <img src="./images/iphone.png" alt="iphone">
+                      </div>
+                      <div class="loding_text">
+                        <p>준비중입니다.</p>
+                      </div>
+                      <div class="loader">
+                        <span></span>
+                      </div>
+                    </div>
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
@@ -772,33 +781,30 @@
               </div>
               <!-- sns -->
               <div class="project_main">
-                <!-- Swiper -->
-                <div class="mockup">
-                  <img src="./images/pc-mock.png" alt="pc-mock">
-                </div>
                 <div class="project_title">
-                  <p>PROJECT</p>
+                  <p>SNS</p>
                 </div>
                 <div class="project_text"></div> <!-- 텍스트 박스 영역 -->
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                      <!-- Swiper -->
+                      <div class="mockup">
+                        <img src="./images/pc-mock.png" alt="pc-mock">
+                      </div>
                       <div class="site_sample">
-                        <img class="site_animate6" src="./images/blog.png" alt="blog">
+                        <a href="https://blog.naver.com/sugukzzi" target="_blank"><img class="site_animate8" src="./images/blog.png" alt="blog"></a>
                       </div>
                       <div class="p_skill">
-                        <p>sns</p>
-                      </div>
-                      <div class="p_design">
-                        <p>WEB DESIGN</p>
+                        <p>SNS</p>
                       </div>
                       <div class="p_title">
-                        <h4>sns</h4>
+                        <p>SNS</p>
                       </div>
+
                       <div class="p_text">
-                        <h4>제작 기간 : 2023.06.24 ~ 2023.07.01 (7일)</h4>
-                        <p>처음으로 클론코딩을 한 페이지입니다
-                          주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리주저리</p>
+                        <p>취미로 운영하고 있는 맛집블로그와 인스타그램입니다. <br>
+                          맛집을 탐방하고, 그 경험을 블로그에 담아 공유하고 맛있는 음식들과 <br>다양한 식도락 경험을 소개하고, 맛집 추천과 리뷰를 제공하고 있습니다. </p>
                       </div>
 
                       <div class="p_site">
@@ -810,30 +816,7 @@
                           <a href="https://www.instagram.com/sugukzzi/" target="_blank">insta</a>
                         </div>
                       </div>
-
-                      <div class="p_personal">
-                        <h4>개인작업</h4>
-                        <p>PERSONAL WORK</p>
-                        <span>100% 기획,코딩</span>
-                      </div>
-
-                      <div class="p_cross">
-                        <img src="./images/chrom.png" alt="chrom">
-                        <img src="./images/firefox.png" alt="firefox">
-                        <img src="./images/edge.png" alt="edge">
-                        <img src="./images/explorer.png" alt="explorer">
-                      </div>
-
-                      <div class="p_git">
-                        <div class="git_img">
-                          <a href="https://github.com/KimSiKyoung/PROSECUTION_SERVICE.git" target="_blank">
-                            <img src="./images/github.png" alt="github">
-                          </a>
-                          <span>코드 보기</span>
-                        </div>
-                      </div>
                     </div>
-                    <div class="swiper-slide"></div>
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
@@ -856,12 +839,12 @@
           <h2> CONTACT ME 👨‍🌾</h2>
         </div>
         <div class="contact_text">
-          <span>📩 gyong0120@naver.com </span> <br>
-          <span> 📞 010-2135-2409 </span> <br>
+          <span><a href="mailto:gyong0120@naver.com">📩 gyong0120@naver.com</a> </span> <br>
+          <span> <a href="tel:010-2135-2409">📞 010-2135-2409 </a> </span> <br>
           <div class="kakao_qr">
             <img src="./images/kakao.png" alt="qr">
             <span>tlrud321</span>
-            <a href="#none" class="qr_popup-btn" > QR코드 확인하기 </a>
+            <a href="#none" class="qr_popup-btn"> QR코드 확인하기 </a>
           </div>
         </div>
         <div class="contact_text2">
@@ -871,7 +854,7 @@
         </div>
         <div class="contact_copy">
           본 페이지는 상업적 목적이 아닌, 개인 포트폴리오용으로 제작되었습니다. <br>
-          Copyright &copy; KimSiKyoung Portfolio 2023. All rights are reserved. 
+          Copyright &copy; KimSiKyoung Portfolio 2023. All rights are reserved.
         </div>
       </div>
 
@@ -879,6 +862,7 @@
       <!-- 팝업 -->
       <div class="qr_popup-view">
         <img src="./images/kakaoqr.png" alt="qrcode">
+        <p>스캔하시면 카카오톡 프로필로 이동됩니다. </p>
         <a href="#none" class="qr_popup-close">닫기</a>
       </div>
     </div>
